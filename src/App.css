@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Genel arka plan rengi */
+  color: #212529; /* Yazıların genel rengi */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  width: 20rem;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333; /* Başlık rengini koyulaştırdık */
+}
+
+.form-label {
+  color: #212529;
+}
+
+button {
+  padding: 10px;
+  font-weight: 700;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.errorText {
+    color: red; /* İstediğiniz rengi seçebilirsiniz */
+    font-weight: bold; /* İsteğe bağlı diğer stiller */
+}
